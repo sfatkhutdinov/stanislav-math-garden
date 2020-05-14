@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang='en'>
 
 <head>
@@ -6,17 +7,20 @@
   <link rel='stylesheet' href='css/styles.css'>
   <!-- Custom font -->
   <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Just+Another+Hand&display=swap'>
-  <!--  Favicon -->
+
+  <!-- Favicon -->
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  
+
   <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.0/dist/tf.min.js"></script>
-  <script src="vendor/opencv.js"></script>
   
+  <script src='vendor/opencv.js'></script>
+
   <!-- TODO: Add Javascript files here -->
-  <script src="drawing.js"></script>
-  <script src="processing.js"></script>
-  <script src="maths.js"></script>
-  
+  <script src='drawing.js'></script>
+  <script src='processing.js'></script>
+  <script src='maths.js'></script>
+
+
 </head>
 
 <body>
@@ -29,7 +33,8 @@
     <h2 id='question'><span id='n1'>3</span> + <span id='n2'>2</span> = </h2>
 
     <!-- TODO: Add a drawing canvas here -->
-    <canvas id="my-canvas" width="150", height="150"></canvas>
+    <canvas id='my-canvas' width="150" height="150"></canvas>
+
   </div>
 
   <div class='container'>
@@ -38,17 +43,17 @@
 
   <!-- TODO: Set up TF model and drawing logic-->
   <script>
-        
+    
     loadModel();
     prepareCanvas();
     nextQuestion();
-    
+
     document.getElementById('checkAnswer').addEventListener('click', function () {
       checkAnswer();
       clearCanvas();
       nextQuestion();
     });
-    
+
   </script>
 
 </body>

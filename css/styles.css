@@ -1,20 +1,20 @@
 body {
-  font-family: 'Just Another Hand', cursive;
-  background-color: #242E6B;
-  width: 100%;
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
+font-family: 'Just Another Hand', cursive;
+background-color: #242E6B;
+width: 100%;
+background-position: top;
+background-repeat: no-repeat;
+background-size: cover;
 }
 
-/* TODO: Styling by html elemnt: add styling for h1 and h2 */
+/* TODO: Styling by html element: add styling for h1 and h2 */
 h1, h2 {
   font-weight: 400;
   font-size: 200px;
 }
 
 /* TODO: Styling by id: add styling for #title */
-#title{
+#title {
   color: #FC8C93;
   line-height: 50px;
 }
@@ -28,7 +28,10 @@ h1, h2 {
 #my-canvas {
   vertical-align: top;
   display: inline;
-  border: 5px solid white;
+  border: 5px solid #FFFFFF;
+  border-radius: 5%;
+  margin-left: 25px;
+  cursor: crosshair;
 }
 
 .container {
