@@ -1,10 +1,11 @@
 body {
-font-family: 'Just Another Hand', cursive;
-background-color: #fab1a0;
-width: 100%;
-background-position: top;
-background-repeat: no-repeat;
-background-size: cover;
+	font-family: 'Just Another Hand', cursive;
+	background-color: #fab1a0;
+	width: 100%;
+	height: 100%;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 /* TODO: Styling by html element: add styling for h1 and h2 */
@@ -21,7 +22,7 @@ h1, h2 {
 
 #question {
   display: inline;
-  color: ##636e72;
+  color: #636e72;
 }
 
 /* TODO: Styling by id: add styling for canvas */
