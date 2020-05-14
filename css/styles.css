@@ -1,6 +1,6 @@
 body {
 font-family: 'Just Another Hand', cursive;
-background-color: #242E6B;
+background-color: #55efc4;
 width: 100%;
 background-position: top;
 background-repeat: no-repeat;
@@ -15,7 +15,7 @@ h1, h2 {
 
 /* TODO: Styling by id: add styling for #title */
 #title {
-  color: #FC8C93;
+  color: #fdcb6e;
   line-height: 50px;
 }
 
@@ -45,7 +45,7 @@ h1, h2 {
 	border-radius:20px;
   border-width: 0;
 	cursor:pointer;
-	color:#242E6B;
+	color:#55efc4;
   line-height: 70px;
 	font-family:'Just Another Hand', cursive;
 	font-size:70px;
