@@ -1,1 +1,1 @@
-# stanislav-math-garden
+# stanislav-number-recognition
